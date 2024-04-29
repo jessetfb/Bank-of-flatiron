@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import Header from "./components/Header";
-import SearchBar from "./components/SearchBar";
-import TransactionForm from "./components/TransactionForm";
-import TransactionTable from "./components/TransactionTable";
+import Header from "./assets/components/header";
+import TransactionForm from "./assets/components/TransactionForm";
+import TransactionTable from "./assets/components/TransactionTable";
+import SearchBar from "./assets/components/ SearchBar";
 
 function App() {
   const bankName = "The Royal Bank of Flatiron";

@@ -18,7 +18,7 @@ function SearchBar({ onSearch }) {
         type="text"
         value={searchTerm}
         onChange={handleChange}
-        placeholder="search..."
+        placeholder=" search ..."
       />
       <button onClick={handleSearch}
       style={{padding: '10px', color: 'black', cursor: 'pointer', borderRadius: '5px'}}>
