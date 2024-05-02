@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Header from "./assets/components/header";
 import TransactionForm from "./assets/components/TransactionForm";
 import TransactionTable from "./assets/components/TransactionTable";
-import SearchBar from "./assets/components/ SearchBar";
+import SearchBar from "./assets/components/SearchBar";
 
 function App() {
   const bankName = "The Royal Bank of Flatiron";
