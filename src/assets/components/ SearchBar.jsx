@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable react/prop-types */
 import React, {useState} from "react";
 import { FaSearch } from 'react-icons/fa';
 
@@ -5,6 +7,7 @@ function SearchBar({ onSearch }) {
   const [searchTerm, setSearchTerm] = useState("");
 
   function handleChange(event) {
+    setSearchTerm(event.target.value);
     onSearch(event.target.value);
   }
 
@@ -14,7 +17,7 @@ function SearchBar({ onSearch }) {
 
   return (
     <div>
-      <input style={{marginRight: '20px', padding: '10px', borderRadius: '5px', width: '300px'}}
+      <input style={{marginRight: '20px', marginBottom: '10px', borderRadius: '5px', width: '90%'}}
         type="text"
         value={searchTerm}
         onChange={handleChange}

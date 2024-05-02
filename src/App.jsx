@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { useState } from "react";
 import Header from "./assets/components/header";
 import TransactionForm from "./assets/components/TransactionForm";
