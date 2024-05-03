@@ -17,7 +17,8 @@ Installation Instruction
 https://github.com/jessetfb/Bank-of-flatiron.git
 
 Live Link
-bank-of-flatiron-omega-ochre.vercel.app
+
+https://bank-of-flatiron-omega-ochre.vercel.app
 
 
 Technologies used
