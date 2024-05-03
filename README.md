@@ -18,7 +18,7 @@ https://github.com/jessetfb/Bank-of-flatiron.git
 
 Live Link
 
-https://bank-of-flatiron-omega-ochre.vercel.app
+https://bank-of-flatiron-serqno91c-jessetfbs-projects.vercel.app/
 
 
 Technologies used
